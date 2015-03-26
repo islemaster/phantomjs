@@ -46,6 +46,23 @@ Another option is to use PATH variable `PHANTOMJS_CDNURL`.
 PHANTOMJS_CDNURL=http://cnpmjs.org/downloads npm install phantomjs
 ```
 
+### Custom version
+To install a custom version of the phantomjs binaries **at your own risk** use npm config property `phantomjs_version`.
+
+```shell
+npm install phantomjs --phantomjs_version=2.0.0
+```
+
+Or add property into your [`.npmrc` file](https://www.npmjs.org/doc/files/npmrc.html)
+
+```
+phantomjs_version=2.0.0
+```
+
+Another option is to use PATH variable `PHANTOMJS_VERSION`.
+```shell
+PHANTOMJS_VERSION=2.0.0 npm install phantomjs
+```
 
 Running
 -------
