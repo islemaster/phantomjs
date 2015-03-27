@@ -1,16 +1,16 @@
 {
   "name": "phantomjs",
-  "version": "1.9.16",
+  "version": "2.0.0",
   "keywords": [
     "phantomjs",
     "headless",
     "webkit"
   ],
   "description": "Headless WebKit with JS API",
-  "homepage": "https://github.com/Medium/phantomjs",
+  "homepage": "https://github.com/wjordan/phantomjs",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Medium/phantomjs.git"
+    "url": "git://github.com/wjordan/phantomjs.git"
   },
   "licenses": [
     {
